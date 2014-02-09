@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.12.7)  9 FEB 2014 11:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.12.7)  9 FEB 2014 12:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1126,45 +1126,50 @@ Package pdftex.def Info: f5.png used on input line 236.
 <f6.png, id=42, 464.73625pt x 106.3975pt>
 File: f6.png Graphic file (type png)
  <use f6.png>
-Package pdftex.def Info: f6.png used on input line 245.
+Package pdftex.def Info: f6.png used on input line 256.
 (pdftex.def)             Requested size: 398.33858pt x 91.19809pt.
 
-<f7.png, id=43, 461.725pt x 105.39375pt>
+<p4.png, id=43, 846.16125pt x 561.09625pt>
+File: p4.png Graphic file (type png)
+ <use p4.png>
+Package pdftex.def Info: p4.png used on input line 270.
+(pdftex.def)             Requested size: 256.0748pt x 169.80276pt.
+ [7 <./f6.png> <./p4.png>] <f7.png, id=48, 461.725pt x 105.39375pt>
 File: f7.png Graphic file (type png)
  <use f7.png>
-Package pdftex.def Info: f7.png used on input line 251.
+Package pdftex.def Info: f7.png used on input line 288.
 (pdftex.def)             Requested size: 398.33858pt x 90.9247pt.
 
-<f8.png, id=44, 478.78876pt x 62.2325pt>
+<f8.png, id=49, 478.78876pt x 62.2325pt>
 File: f8.png Graphic file (type png)
  <use f8.png>
-Package pdftex.def Info: f8.png used on input line 257.
+Package pdftex.def Info: f8.png used on input line 311.
 (pdftex.def)             Requested size: 398.33858pt x 51.77545pt.
- [7 <./f6.png> <./f7.png> <./f8.png>] (./hw2.aux) ) 
+ [8 <./f7.png> <./f8.png>] (./hw2.aux) ) 
 Here is how much of TeX's memory you used:
- 25706 strings out of 494536
- 568363 string characters out of 6167446
+ 25711 strings out of 494536
+ 568412 string characters out of 6167446
  614486 words of memory out of 5000000
- 28498 multiletter control sequences out of 15000+600000
+ 28502 multiletter control sequences out of 15000+600000
  10322 words of font info for 42 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  63i,7n,57p,432b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013basi
-c/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013
-basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/
-2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texl
-ive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/t
-exlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
-l/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
-/local/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
-sr/local/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-></usr/local/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb>
-Output written on hw2.pdf (7 pages, 310594 bytes).
+</usr/local/texlive/2013basic/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013basic/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2013basic/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2013bas
+ic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2013
+basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2
+013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texliv
+e/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
+ive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
+xlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
+l/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/l
+ocal/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on hw2.pdf (8 pages, 344996 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 90 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

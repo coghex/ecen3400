@@ -236,7 +236,18 @@ any point.
 \includegraphics[width=14cm]{f5}
 \end{center}
 \end{figure}
-
+The electric field strength can be found as a simple functino of $r$:
+\[
+  E(r) = \frac{Q}{4\pi\epsilon_1 r^2} \Rightarrow \frac{Q}{4\pi\epsilon_0(1+a/r) r^2} \text{ for } r>R \text{ else } E = 0
+\]
+To find to scalar potential, we can preform the following integral:
+\[
+  V = \int_{R}^{r} \frac{Q}{4\pi\epsilon_0(a+r)r}dr = \frac{Q}{4\pi\epsilon_0}(\ln(\frac{r}{r+1}) - \ln(\frac{R}{R+1}))
+\]
+The volume density of polarization charges is the charge $Q$ devided by the total volume of the sphere:
+\[
+  \frac{Q}{4/3\pi R^3}
+\]
 \newpage
 
 6) \textbf{8.15:}
@@ -245,18 +256,69 @@ any point.
 \includegraphics[width=14cm]{f6}
 \end{center}
 \end{figure}
+
+Without the charged plate in between the other two, we can find the Electric field quite easily:
+\[
+  E = \frac{\sigma}{\epsilon_0}\text{ where } \sigma = \frac{Q}{A} \Rightarrow E = 113000 N/C
+\]
+With the new uncharged plate, the electric field remains unchaged.  This is because the perfect
+conductor will move a charge $Q$ towards the plate 1 and a charge $-Q$ towards the other plate.
+The only difference is that the electric field in that 5mm where the plate is becomes 0.  The plot
+would look like so:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=9cm]{p4}
+\end{center}
+\end{figure}
+The capacitance has changed, since the sum of the electric field over the distance is now different.
+In the original case, the voltage is:
+\[
+  V = E \cdot d = 1130 Volts
+\]
+And in the second case:
+\[
+  V = E \cdot (0.25cm) + E\cdot (0.25cm) = 565 Volt
+\]
+
+\newpage
+
 7) \textbf{8.20:}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=14cm]{f7}
 \end{center}
 \end{figure}
+
+Gauss' law tells us that the electric field on the surface of the inner dielectric is $\frac{Q'}{2\pi\epsilon_{1r} r}$.
+Note that the thinckness and position of this inner dielectric doesnt matter.  The electric field in
+the outer dielectric is 0.  The outer and inner electric can never be the same unless there is no
+charge running through the cable.  The capacitance per unit length can be found quite easily, first we
+find the voltage:
+\[
+  V = \frac{Q'}{2\pi\epsilon_{1r}}\ln(\frac{b}{a})
+\]
+\[
+  C' = \frac{Q'}{V} = \frac{2\pi\epsilon_{1r}}{\ln\frac{b}{a}} = 9.76 F/m
+\]
+The largest voltage that can be applied is:
+\[
+  V = 200kV/cm \cdot 20mm = 400kV
+\]
+
 8) \textbf{9.15:}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=14cm]{f8}
 \end{center}
 \end{figure}
+The field per unit length can be found in the textbook as
+\[
+  E' = \frac{Q'}{2\pi\epsilon_0(30cm)} \text{ where } Q' = \pi\epsilon_0V/\ln{(30cm/3mm)} = 506569 V/m
+\]
+The force per unit lenght can also be found by an equation in the book:
+\[
+  F = -Q'E' = 1.071 N/m
+\]
 
 
 \end{document}
