@@ -105,24 +105,94 @@
 \includegraphics[width=8cm]{p1b}
 \end{center}
 \end{figure}
+
+The capacitance of a length of cable will be:
+\[
+  C = \frac{2\pi \epsilon_1 x}{\ln(b/a)} + \frac{2\pi \epsilon_0(L-x)}{\ln(b/a)}
+\]
+
+The Electric force will be:
+\[
+  F = \frac{dW}{dx}
+\]
+where
+\[
+  W = \frac{1}{2}CV^2 = \frac{1}{2}(\frac{2\pi \epsilon_1 x}{\ln(b/a)} + \frac{2\pi \epsilon_0(L-x)}{\ln(b/a)})V^2
+\]
+This means that:
+\[
+  F = \frac{V^2 \pi (\epsilon_1 - \epsilon_0)}{\ln(b/a)}
+\]
+
+\newpage
+
 2) \textbf{10.3:}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=14cm]{p2}
 \end{center}
 \end{figure}
+
+The current density will be
+\[
+  J = \frac{I}{A} = \frac{I}{\pi b^2 - \pi a^2}
+\]
+The resistance of the wire will be $\frac{A}{\sigma L}$ and so the resistance per unit length
+will be $\frac{A}{\sigma}$ or $\frac{\pi(b^2 - a^2)}{\sigma}$.
+
 3) \textbf{10.8:}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=14cm]{p3}
 \end{center}
 \end{figure}
+Since
+\[
+  \rho(x) = \rho_0(1+x/l)
+\]
+and
+\[
+  R = \rho\frac{l}{A}
+\]
+then
+\[
+  R(x) = \rho_0(1 + \frac{x}{l})\frac{l}{A}
+\]
+\[
+  R(x) = \frac{\rho_0 l}{A} + \frac{\rho_0 x}{A}
+\]
+
+\newpage
+
 4) \textbf{11.11:}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=14cm]{p4}
 \end{center}
 \end{figure}
+
+The potential we are going to measure can be found as in the example problem:
+\[
+  V = \int_{\text{probe 1}}^{\text{probe 2}} E \cdot dl = \int_{\text{probe 1}}^{\text{probe 2}} \rho J \cdot dl
+\]
+The first thing we need to do is find the current density:
+\[
+  J = \frac{I}{A}
+\]
+Then we can form the integral:
+\[
+  V = \int_{\text{probe 1}}^{\text{probe 2}} \frac{RI}{l} \cdot dl = RI\ln{2a}
+\]
+And we find
+\[
+  \rho = \frac{Vl}{IA\ln{2a}}
+\]
+According to the internet the equation should be:
+\[
+  \rho = \frac{V\pi}{I\ln{2}}
+\]
+Which is not what I have, so I dont know where I went wrong.
+\newpage
 5) \textbf{12.6:}
 \begin{figure}[H]
 \begin{center}
