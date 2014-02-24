@@ -137,8 +137,15 @@ The current density will be
 \[
   J = \frac{I}{A} = \frac{I}{\pi b^2 - \pi a^2}
 \]
-The resistance of the wire will be $\frac{A}{\sigma L}$ and so the resistance per unit length
-will be $\frac{A}{\sigma}$ or $\frac{\pi(b^2 - a^2)}{\sigma}$.
+The resistance of the wire will be $\frac{L}{\sigma A}$ and so the resistance per unit length
+will be $\frac{1}{\sigma A}$ or $\frac{1}{\sigma \pi(b^2 - a^2)}$.
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=7cm]{graph}
+\end{center}
+\end{figure}
 
 3) \textbf{10.8:}
 \begin{figure}[H]
@@ -173,25 +180,13 @@ then
 
 The potential we are going to measure can be found as in the example problem:
 \[
-  V = \int_{\text{probe 1}}^{\text{probe 2}} E \cdot dl = \int_{\text{probe 1}}^{\text{probe 2}} \rho J \cdot dl
+  V_1 - V_2 = \int_a^{2a}[\frac{\rho I}{2\pi r^2} + \frac{\rho I}{2\pi (3a-r)^2}]dr = \frac{\rho I}{2\pi a}
 \]
-The first thing we need to do is find the current density:
+Which becomes:
 \[
-  J = \frac{I}{A}
+  \rho = \frac{2\pi a(V_1-V_2)}{I}
 \]
-Then we can form the integral:
-\[
-  V = \int_{\text{probe 1}}^{\text{probe 2}} \frac{RI}{l} \cdot dl = RI\ln{2a}
-\]
-And we find
-\[
-  \rho = \frac{Vl}{IA\ln{2a}}
-\]
-According to the internet the equation should be:
-\[
-  \rho = \frac{V\pi}{I\ln{2}}
-\]
-Which is not what I have, so I dont know where I went wrong.
+
 \newpage
 5) \textbf{12.6:}
 \begin{figure}[H]
@@ -199,18 +194,62 @@ Which is not what I have, so I dont know where I went wrong.
 \includegraphics[width=14cm]{p5}
 \end{center}
 \end{figure}
+
+Using the Biot-Savart law:
+\[
+  B = \frac{\mu_0}{4\pi}\int \frac{Idl \times u_r}{r^2}
+\]
+Since there is a field from each wire:
+\[
+  \frac{\mu_0}{4\pi}\int \frac{Idl \times u_r}{r^2 + (d/2)^2} + \frac{\mu_0}{4\pi}\int \frac{Idl \times u_r}{r^2 + (d/2)^2}
+\]
+Since the $dl$ components cancel eachother out, and the cross product is 1, we find:
+\[
+  \frac{\mu_0}{\pi}\frac{Id}{r^2 + (d/2)^2}
+\]
+in case (b) the magnetic flux density will be the very same, since the vectors from each wire are
+the same length, and have the same angle relative to eachother.  The only difference is that it points
+int a different direction.
+
+\newpage
 6) \textbf{12.7:}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=14cm]{p6}
 \end{center}
 \end{figure}
+
+\[
+  B = \frac{\mu_0I}{4\pi}\frac{dl}{r^2}
+\]
+\[
+  B = \frac{\mu_0I}{4\pi}\frac{2\pi a^2}{(z^2 + a^2)^{3/2}} = \frac{\mu_0Ia^2}{2(z^2+a^2)^{3/2}}
+\]
+
 7)
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=14cm]{p7}
 \end{center}
 \end{figure}
+
+\begin{center}
+\begin{tabular}{| l | l | l |}
+  \hline
+  Property (name) & Number and unit & Why it is relavant \\
+  \hline
+  Melting Point & 1475-1710 K & You dont want the heater to get too hot \\
+  Resistivity & 84-240$\cdot 10^{-8} \Omega m$ & To find the heater's power useage \\
+  Specific Heat & 380-500 J/kgK & To calculate how hot it gets \\
+  Thermal Conductivity & 8-17 W/mK & Sounds heater related \\
+  Thermal Expansion & 9-16 $10^{-6}/K$ & Also sounds heater related \\
+  Elastic Limit & 170-2100 MPa & Important whenever you build something\\
+  \hline
+\end{tabular}
+\end{center}
+
+Everything found here: http://www.nickel-alloys.net/nickel\_chrome\_alloys.html
+
 8)
 \begin{figure}[H]
 \begin{center}
@@ -218,6 +257,11 @@ Which is not what I have, so I dont know where I went wrong.
 \end{center}
 \end{figure}
 
-
+The largest I could find is 7500A here: http://www.cooperindustries.com/content/
+public/en/bussmann/electrical/products/high\_speed\_/square\_body/square\_body\_flushendcontact
+size23241000-7500a.html  Its made for power distrobution usage.  The smallest one
+I could find is 0.05 Amps, here: http://www.littelfuse.com/products/fuses/axial-radial-
+thru-hole-fuses/\~/media/electronics/datasheets/fuses/littelfuse\_fuse\_242\_datasheet.pdf.pdf
+Which is for electronics in "explosive" equipment.
 
 \end{document}
