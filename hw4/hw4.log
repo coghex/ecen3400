@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.12.7)  8 MAR 2014 16:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.12.7)  8 MAR 2014 18:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1111,57 +1111,69 @@ File: p4.png Graphic file (type png)
  <use p4.png>
 Package pdftex.def Info: p4.png used on input line 228.
 (pdftex.def)             Requested size: 398.33858pt x 298.11383pt.
- [5 <./p4.png>] <p5.png, id=35, 458.71375pt x 328.22626pt>
+ [5 <./p4.png>] [6] <p5.png, id=38, 458.71375pt x 328.22626pt>
 File: p5.png Graphic file (type png)
  <use p5.png>
-Package pdftex.def Info: p5.png used on input line 237.
+Package pdftex.def Info: p5.png used on input line 259.
 (pdftex.def)             Requested size: 398.33858pt x 285.03867pt.
 
-<p6.png, id=36, 458.71375pt x 63.23625pt>
+<f1.png, id=39, 681.54625pt x 398.48875pt>
+File: f1.png Graphic file (type png)
+ <use f1.png>
+Package pdftex.def Info: f1.png used on input line 285.
+(pdftex.def)             Requested size: 398.33858pt x 232.9052pt.
+ [7 <./p5.png>]
+<f2.png, id=44, 710.655pt x 444.66125pt>
+File: f2.png Graphic file (type png)
+ <use f2.png>
+Package pdftex.def Info: f2.png used on input line 292.
+(pdftex.def)             Requested size: 398.33858pt x 249.24606pt.
+ [8 <./f1.png> <./f2.png>] <p6.png, id=48, 458.71375pt x 63.23625pt>
 File: p6.png Graphic file (type png)
  <use p6.png>
-Package pdftex.def Info: p6.png used on input line 244.
+Package pdftex.def Info: p6.png used on input line 300.
 (pdftex.def)             Requested size: 398.33858pt x 54.9157pt.
 
-<p7a.png, id=37, 455.7025pt x 281.05pt>
+<p7a.png, id=49, 455.7025pt x 281.05pt>
 File: p7a.png Graphic file (type png)
  <use p7a.png>
-Package pdftex.def Info: p7a.png used on input line 251.
+Package pdftex.def Info: p7a.png used on input line 315.
 (pdftex.def)             Requested size: 398.33858pt x 245.67798pt.
 
-<p7b.png, id=38, 454.69875pt x 30.1125pt>
+<p7b.png, id=50, 454.69875pt x 30.1125pt>
 File: p7b.png Graphic file (type png)
  <use p7b.png>
-Package pdftex.def Info: p7b.png used on input line 256.
+Package pdftex.def Info: p7b.png used on input line 320.
 (pdftex.def)             Requested size: 398.33858pt x 26.38051pt.
- [6 <./p5.png> <./p6.png>] <p8.png, id=42, 455.7025pt x 61.22874pt>
+ [9 <./p6.png> <./p7a.png> <./p7b.png>] <p8.png, id=54, 455.7025pt x 61.22874pt
+>
 File: p8.png Graphic file (type png)
  <use p8.png>
-Package pdftex.def Info: p8.png used on input line 264.
+Package pdftex.def Info: p8.png used on input line 343.
 (pdftex.def)             Requested size: 398.33858pt x 53.52267pt.
- [7 <./p7a.png> <./p7b.png> <./p8.png>] (./hw4.aux) ) 
+ [10 <./p8.png>] (./hw4.aux) ) 
 Here is how much of TeX's memory you used:
- 25706 strings out of 494536
- 568393 string characters out of 6167446
+ 25716 strings out of 494536
+ 568491 string characters out of 6167446
  616488 words of memory out of 5000000
- 28498 multiletter control sequences out of 15000+600000
+ 28506 multiletter control sequences out of 15000+600000
  10322 words of font info for 42 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  63i,7n,57p,432b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013ba
-sic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/20
-13basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texliv
-e/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
-xlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local
-/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
-local/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
-r/local/texlive/2013basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-
-Output written on hw4.pdf (7 pages, 404722 bytes).
+</usr/local/texlive/2013basic/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013basic/texmf-dist/font
+s/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2013basic/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2013basic/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2013basic/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013basic/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2013basic
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013bas
+ic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+3basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on hw4.pdf (10 pages, 483490 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 89 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

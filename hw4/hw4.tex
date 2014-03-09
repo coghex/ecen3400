@@ -228,7 +228,29 @@ and encompases only the field generated using Ampere's law, which is immune to t
 \includegraphics[width=14cm]{p4}
 \end{center}
 \end{figure}
-
+\newpage
+We will begin, as we often do, with Ampere's law:
+\[
+  \oint_C H\cdot dl = \int_S J\cdot dS
+\]
+\[
+H = \frac{N I}{2\pi r}
+\]
+At I = 0.2 we can find the flux in two ways: The first way:
+\[
+  \Phi = H\cdot A = \frac{N I}{\pi (b-a)} h(b-a) = 0.38 Wb
+\]
+The other way is:
+\[
+  \frac{1}{6}\sum_{r=3.25,3.75,4.25,4.75,5.25,5.75} \frac{N I}{2\pi r} = 1.47 Wb
+\]
+At I = 1
+\[
+  \Phi = H\cdot A = \frac{N I}{\pi (b-a)} h(b-a) = 1.91 Wb
+\]
+\[
+  \frac{1}{6}\sum_{r=3.25,3.75,4.25,4.75,5.25,5.75} \frac{N I}{2\pi r} = 7.35 Wb
+\]
 
 \newpage
 5) \textbf{14.6:}
@@ -238,12 +260,54 @@ and encompases only the field generated using Ampere's law, which is immune to t
 \end{center}
 \end{figure}
 
+We will use Faraday's law:
+\[
+  V = -\frac{d}{dt} \int_S B\cdot dS
+\]
+\[
+  V = -\frac{d}{dt} \frac{\mu_0 N_1N_2i(t)2\pi a}{L}
+\]
+\[
+  V = -\frac{d}{dt} \frac{\mu_0 N_1N_2I_m\sin(2\pi ft)2\pi a}{L}
+\]
+\[
+  V = -\mu_0 N_1N_2I_m\cos(2\pi ft)4\pi^2af\frac{1}{L} \approx -9Vcos(314t)
+\]
+The induced emf will induce an electric field proportional to the resistance
+of the wire, so the question cannot be answered numerically, but symbollically:
+\[
+  E_{max} = \frac{\mu_0 N_2 |V|}{2 R b}
+\]
+We know $|V|$ to be 9, but $R$ was not given in the problem. The plots will be the same
+with respect to $N_1$ and $N_2$... so:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=14cm]{f1}
+\end{center}
+\end{figure}
+
+And with frequency:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=14cm]{f2}
+\end{center}
+\end{figure}
+
+\newpage
 6) \textbf{14.16:}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=14cm]{p6}
 \end{center}
 \end{figure}
+First we find the flux to be:
+\[
+  \Phi = B(t)cos(\omega t)\pi a^2
+\]
+Then we can find the induced emf to be
+\[
+  V = -\frac{d}{dt}B(t)\cos(\omega t)\pi a^2
+\]
 
 7) \textbf{15.3:}
 \begin{figure}[H]
@@ -256,7 +320,22 @@ and encompases only the field generated using Ampere's law, which is immune to t
 \includegraphics[width=14cm]{p7b}
 \end{center}
 \end{figure}
-
+First we find the flux per unit length:
+\[
+  \Phi'_1 = \frac{\mu_0 i(t)}{2\pi} \int_{r_1}^{r_2} \frac{dr}{r} = \frac{\mu_0i(t)}{2\pi}\ln(\frac{r_2}{r_1})
+\]
+where $r_1 = D$ and $r_2 = \sqrt{D^2+H^2}$.  On the other line it is:
+\[
+  \Phi'_2 = \frac{\mu_0 i(t)}{2\pi} \int_{r_3}^{r_4} \frac{dr}{r} = \frac{\mu_0i(t)}{2\pi}\ln(\frac{r_4}{r_3})
+\]
+where $r_3 = D+d$ and $r_4 = \sqrt{(D+d)^2+H^2}$.  The total flux per unit length is thus:
+\[
+  \frac{\mu_0i(t)}{2\pi}\ln(\frac{r_2}{r_1}) + \frac{\mu_0i(t)}{2\pi}\ln(\frac{r_4}{r_3}) = \frac{\mu_0i(t)}{2\pi}\ln(\frac{r_2r_4}{r_1r_3})
+\]
+and our emf is:
+\[
+  -\frac{d}{dt}\frac{\mu_0i(t)}{2\pi}\ln(\frac{r_2r_4}{r_1r_3}) = -\frac{\omega\mu_0I_m\cos(\omega t)}{2\pi}\ln(\frac{r_2r_4}{r_1r_3})
+\]
 
 8) \textbf{15.10:}
 \begin{figure}[H]
@@ -265,5 +344,14 @@ and encompases only the field generated using Ampere's law, which is immune to t
 \end{center}
 \end{figure}
 
+We know from the textbook that the self inductance per unit length is:
+\[
+  L' = \frac{\mu_0}{2\pi}\ln(\frac{b}{a})
+\]
+With our new surface we will have to modify our equation to:
+\[
+  L' = \frac{\mu}{2\pi}\ln(\frac{a+d}{a}) + \frac{\mu_0}{2\pi}\ln(\frac{b}{a+d})
+\]
+It works much like a dielectric when capacitance is in question.
 
 \end{document}
