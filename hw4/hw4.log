@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.12.7)  8 MAR 2014 18:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.12.7)  19 MAR 2014 10:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1087,69 +1087,69 @@ Overfull \hbox (10.71661pt too wide) in paragraph at lines 96--102
 p1.png>] <p2a.png, id=16, 566.115pt x 64.24pt>
 File: p2a.png Graphic file (type png)
  <use p2a.png>
-Package pdftex.def Info: p2a.png used on input line 117.
+Package pdftex.def Info: p2a.png used on input line 122.
 (pdftex.def)             Requested size: 398.33858pt x 45.20294pt.
 
 <p2b.png, id=17, 303.1325pt x 333.245pt>
 File: p2b.png Graphic file (type png)
  <use p2b.png>
-Package pdftex.def Info: p2b.png used on input line 122.
+Package pdftex.def Info: p2b.png used on input line 127.
 (pdftex.def)             Requested size: 227.62204pt x 250.23822pt.
  [2 <./p2a.png> <./p2b.png>] <p3a.png, id=23, 461.725pt x 325.215pt>
 File: p3a.png Graphic file (type png)
  <use p3a.png>
-Package pdftex.def Info: p3a.png used on input line 138.
+Package pdftex.def Info: p3a.png used on input line 143.
 (pdftex.def)             Requested size: 398.33858pt x 280.5677pt.
 
 <p3b.png, id=24, 454.69875pt x 59.22125pt>
 File: p3b.png Graphic file (type png)
  <use p3b.png>
-Package pdftex.def Info: p3b.png used on input line 143.
+Package pdftex.def Info: p3b.png used on input line 148.
 (pdftex.def)             Requested size: 398.33858pt x 51.8817pt.
  [3 <./p3a.png> <./p3b.png>] [4] <p4.png, id=31, 458.71375pt x 343.2825pt>
 File: p4.png Graphic file (type png)
  <use p4.png>
-Package pdftex.def Info: p4.png used on input line 228.
+Package pdftex.def Info: p4.png used on input line 233.
 (pdftex.def)             Requested size: 398.33858pt x 298.11383pt.
  [5 <./p4.png>] [6] <p5.png, id=38, 458.71375pt x 328.22626pt>
 File: p5.png Graphic file (type png)
  <use p5.png>
-Package pdftex.def Info: p5.png used on input line 259.
+Package pdftex.def Info: p5.png used on input line 264.
 (pdftex.def)             Requested size: 398.33858pt x 285.03867pt.
 
 <f1.png, id=39, 681.54625pt x 398.48875pt>
 File: f1.png Graphic file (type png)
  <use f1.png>
-Package pdftex.def Info: f1.png used on input line 285.
+Package pdftex.def Info: f1.png used on input line 290.
 (pdftex.def)             Requested size: 398.33858pt x 232.9052pt.
  [7 <./p5.png>]
 <f2.png, id=44, 710.655pt x 444.66125pt>
 File: f2.png Graphic file (type png)
  <use f2.png>
-Package pdftex.def Info: f2.png used on input line 292.
+Package pdftex.def Info: f2.png used on input line 297.
 (pdftex.def)             Requested size: 398.33858pt x 249.24606pt.
  [8 <./f1.png> <./f2.png>] <p6.png, id=48, 458.71375pt x 63.23625pt>
 File: p6.png Graphic file (type png)
  <use p6.png>
-Package pdftex.def Info: p6.png used on input line 300.
+Package pdftex.def Info: p6.png used on input line 305.
 (pdftex.def)             Requested size: 398.33858pt x 54.9157pt.
 
 <p7a.png, id=49, 455.7025pt x 281.05pt>
 File: p7a.png Graphic file (type png)
  <use p7a.png>
-Package pdftex.def Info: p7a.png used on input line 315.
+Package pdftex.def Info: p7a.png used on input line 320.
 (pdftex.def)             Requested size: 398.33858pt x 245.67798pt.
 
 <p7b.png, id=50, 454.69875pt x 30.1125pt>
 File: p7b.png Graphic file (type png)
  <use p7b.png>
-Package pdftex.def Info: p7b.png used on input line 320.
+Package pdftex.def Info: p7b.png used on input line 325.
 (pdftex.def)             Requested size: 398.33858pt x 26.38051pt.
  [9 <./p6.png> <./p7a.png> <./p7b.png>] <p8.png, id=54, 455.7025pt x 61.22874pt
 >
 File: p8.png Graphic file (type png)
  <use p8.png>
-Package pdftex.def Info: p8.png used on input line 343.
+Package pdftex.def Info: p8.png used on input line 348.
 (pdftex.def)             Requested size: 398.33858pt x 53.52267pt.
  [10 <./p8.png>] (./hw4.aux) ) 
 Here is how much of TeX's memory you used:
@@ -1170,7 +1170,7 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2013basic
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013bas
 ic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
 3basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on hw4.pdf (10 pages, 483490 bytes).
+Output written on hw4.pdf (10 pages, 483695 bytes).
 PDF statistics:
  89 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
