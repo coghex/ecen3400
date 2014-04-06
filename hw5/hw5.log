@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  6 APR 2014 09:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  6 APR 2014 13:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -995,7 +995,7 @@ Package: listings 2007/02/22 1.4 (Carsten Heinz)
 \c@define=\count193
 \digitwidth=\dimen293
 
-No file hw5.aux.
+(./hw5.aux)
 \openout1 = `hw5.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
@@ -1010,7 +1010,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
-(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count194
 \scratchdimen=\dimen294
@@ -1051,29 +1051,97 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 Normal \count register pool exhausted, switching to extended pool.
 \c__siunitx_mathtt_int=\count277
 
-Overfull \hbox (10.71661pt too wide) in paragraph at lines 96--98
+<f1.png, id=4, 459.7175pt x 327.2225pt>
+File: f1.png Graphic file (type png)
+ <use f1.png>
+Package pdftex.def Info: f1.png used on input line 100.
+(pdftex.def)             Requested size: 398.33858pt x 283.54785pt.
+
+Overfull \hbox (10.71661pt too wide) in paragraph at lines 96--102
 []
  []
 
 [1
 
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./hw5.aux) ) 
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./f1.pn
+g>] <f2.png, id=17, 454.69875pt x 262.9825pt>
+File: f2.png Graphic file (type png)
+ <use f2.png>
+Package pdftex.def Info: f2.png used on input line 127.
+(pdftex.def)             Requested size: 398.33858pt x 230.39pt.
+ [2 <./f2.png>]
+<f3a.png, id=21, 458.71375pt x 281.05pt>
+File: f3a.png Graphic file (type png)
+ <use f3a.png>
+Package pdftex.def Info: f3a.png used on input line 142.
+(pdftex.def)             Requested size: 398.33858pt x 244.0698pt.
+
+<f3b.png, id=22, 262.9825pt x 193.72375pt>
+File: f3b.png Graphic file (type png)
+ <use f3b.png>
+Package pdftex.def Info: f3b.png used on input line 147.
+(pdftex.def)             Requested size: 199.16928pt x 146.72314pt.
+ [3 <./f3a.png> <./f3b.png>] <f4.png, id=26, 459.7175pt x 64.24pt>
+File: f4.png Graphic file (type png)
+ <use f4.png>
+Package pdftex.def Info: f4.png used on input line 184.
+(pdftex.def)             Requested size: 398.33858pt x 55.66583pt.
+ [4 <./f4.png>]
+<f5.png, id=30, 456.70625pt x 88.33pt>
+File: f5.png Graphic file (type png)
+ <use f5.png>
+Package pdftex.def Info: f5.png used on input line 201.
+(pdftex.def)             Requested size: 398.33858pt x 77.04324pt.
+
+<f6a.png, id=31, 455.7025pt x 92.345pt>
+File: f6a.png Graphic file (type png)
+ <use f6a.png>
+Package pdftex.def Info: f6a.png used on input line 218.
+(pdftex.def)             Requested size: 398.33858pt x 80.72275pt.
+
+<f6b.png, id=32, 256.96pt x 260.975pt>
+File: f6b.png Graphic file (type png)
+ <use f6b.png>
+Package pdftex.def Info: f6b.png used on input line 223.
+(pdftex.def)             Requested size: 142.26378pt x 144.48842pt.
+ [5 <./f5.png> <./f6a.png> <./f6b.png>] <f7.png, id=36, 453.695pt x 49.18375pt>
+File: f7.png Graphic file (type png)
+ <use f7.png>
+Package pdftex.def Info: f7.png used on input line 244.
+(pdftex.def)             Requested size: 398.33858pt x 43.18274pt.
+ [6 <./f7.png>] <f8.png, id=40, 460.72125pt x 52.195pt>
+File: f8.png Graphic file (type png)
+ <use f8.png>
+Package pdftex.def Info: f8.png used on input line 263.
+(pdftex.def)             Requested size: 398.33858pt x 45.12733pt.
+
+<f9.png, id=41, 454.69875pt x 46.1725pt>
+File: f9.png Graphic file (type png)
+ <use f9.png>
+Package pdftex.def Info: f9.png used on input line 277.
+(pdftex.def)             Requested size: 398.33858pt x 40.45013pt.
+ [7 <./f8.png> <./f9.png>] (./hw5.aux) ) 
 Here is how much of TeX's memory you used:
- 25647 strings out of 493315
- 565974 string characters out of 6137904
- 615508 words of memory out of 5000000
- 28655 multiletter control sequences out of 15000+600000
+ 25705 strings out of 493315
+ 566559 string characters out of 6137904
+ 618508 words of memory out of 5000000
+ 28700 multiletter control sequences out of 15000+600000
  10322 words of font info for 42 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 63i,6n,57p,432b,223s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr12.pfb>
-Output written on hw5.pdf (1 page, 22448 bytes).
+ 63i,7n,57p,432b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/font
+s/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2013/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2013/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb>
+Output written on hw5.pdf (7 pages, 699326 bytes).
 PDF statistics:
- 19 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
