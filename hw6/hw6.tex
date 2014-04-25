@@ -163,24 +163,33 @@ When C is small
 
 The equivalent impedence
 \[
-  Z_e=\frac{Z_0/(Lj\omega)}{Z_0+Lj\omega}
+  Z_e=Z_0+Lj\omega
 \]
 This gives us the reflection coefficient
 \[
-  \rho = \frac{Z_e-Z_0}{Z_e+Z_0} = -1-\frac{2}{-1+L\omega(L\omega-jZ_0)}
+  \rho = \frac{Z_e-Z_0}{Z_e+Z_0} = \frac{Lj\omega}{Lj\omega+Z_0}
 \]
 When L is small:
 \[
-  \rho \approx -1+2 = 1
+  \rho \approx \frac{Lj\omega}{Z_0}
 \]
 
 \newpage
 4) \textbf{P18.17:}
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=14cm]{f4}
+\includegraphics[width=13cm]{f4}
 \end{center}
 \end{figure}
+This is a transmission line where $Z_e = \frac{2}{3}Z_0$.  We can for an equation:
+\[
+  \rho = \frac{\frac{-1}{3}Z_0}{\frac{5}{3}Z_0} = -0.2Z_0
+\]
+\[
+  \tau = \rho+1 = 0.8Z_0
+\]
+This means that the power reflected is $0.04$ the power transmitted is $0.64$.  The
+difference is the power loss through the impedence.
 
 5) \textbf{P18.23:}
 \begin{figure}[H]
@@ -189,19 +198,48 @@ When L is small:
 \end{center}
 \end{figure}
 
+We know the impedence to be:
+\[
+  Z=Z_0\frac{Z_L+jZ_0\tan(\beta\zeta)}{Z_0+jZ_L\tan(\beta\zeta)} = Z_0\frac{Z_L+jZ_0\tan(\frac{2\pi}{\lambda}\frac{3\lambda}{4})}{Z_0+jZ_L\tan(\frac{2\pi}{\lambda}\frac{3\lambda}{4})}
+\]
+\[
+  = Z_0\frac{75+jZ_0\tan(\frac{3}{2})}{Z_0+j75\tan(\frac{3}{2})}
+\]
 6) \textbf{P18.24:}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=14cm]{f6}
 \end{center}
 \end{figure}
-
+We can find that the electrical length is $\zeta=\frac{2}{\lambda}=\frac{2}{10}=\frac{1}{5}$.  This
+gives us the input impedence: ($\beta=\frac{\pi}{5}$)
+\[
+  Z=150\frac{75+j150+j(150)\tan(\pi/25)}{150+j(75+j150)\tan(\pi/25)}
+\]
+\[
+  \rho=\frac{Z_L-Z_0}{Z_L+Z_0}=\frac{75+150j-150}{75+150j+150} = \frac{1+8j}{13}
+\]
+\[
+  \text{VSWR }=-\frac{2+8i}{8i}=\frac{j}{4}-1
+\]
 7) \textbf{P18.31:}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=14cm]{f7}
 \end{center}
 \end{figure}
+
+the normalized load impedence of the first line $Z_{1L}=\frac{Z_l}{Z_{01}}$.  We begin at this point
+then rotate wavelength clockwise by $\frac{\zeta_1}{\lambda}$.  The normalized impedance along the first
+line is thus $z_1(\zeta_1)$ Which tells us the actual impedance $Z_1(\zeta_1)=Z_{01}z_1(\zeta_1)$.  We
+then repeat this for line two, to find the new impedance $Z_2(\zeta_2)=Z_{02}z_2(\zeta_2)$.  Once we have the
+impedance we can find the corresponding reflection coefficient.
+\[
+  \rho=\frac{Z_L-Z_1-Z_2}{Z_L+Z_1+Z_2}
+\]
+\[
+  \text{VSWR }=\frac{1+\abs{\rho}}{1-\abs{\rho}}
+\]
 
 8) \textbf{P18.35:}
 \begin{figure}[H]
@@ -210,5 +248,14 @@ When L is small:
 \end{center}
 \end{figure}
 
+This is going to be a combination of a negative imaginary part and a positive real part.  This is a resistor
+in series capacitor.  The value of the resistor is the impedance, $50\Omega$.  The value of the capacitor
+can be found:
+\[
+  C \Rightarrow \frac{1}{j2\pi500\cdot10^{6}C}=-0.4j
+\]
+\[
+  \frac{1}{\pi*10^9C}=0.4 \Rightarrow C=318.3pF
+\]
 
 \end{document}
